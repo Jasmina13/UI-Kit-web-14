@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "normalize.css": "^8.0.1",
+    "pug": "^3.0.2",
+    "sass": "^1.75.0"
+  },
+  "name": "mobile-and-web-ui-kit",
+  "version": "2.0.0",
+  "description": "Mobile And Web Ui Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "pug -w ./ -o ./html -P",
+    "scss": "sass -w scss/",
+    "min": "css-minify -f ./scss/main.css"
+  },
+  "author": "Jasurbek",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasurhaydarovcode/Web-UI-screens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasurhaydarovcode/Web-UI-screens/issues"
+  },
+  "homepage": "https://github.com/jasurhaydarovcode/Web-UI-screens#readme"
+}
